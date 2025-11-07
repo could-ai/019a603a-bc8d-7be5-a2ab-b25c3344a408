@@ -158,7 +158,7 @@ class ProfileScreen extends StatelessWidget {
                   ),
                   const Divider(height: 1),
                   _buildMenuItem(
-                    icon: Icons.notifications_outline,
+                    icon: Icons.notifications,
                     title: 'Notifications',
                     onTap: () {
                       ScaffoldMessenger.of(context).showSnackBar(

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/delivery_item.dart';
 import '../widgets/delivery_card.dart';
-import 'package:flutter/cupertino.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -101,7 +100,7 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: Colors.white,
         actions: [
           IconButton(
-            icon: const Icon(Icons.notifications_outlined),
+            icon: const Icon(Icons.notifications),
             onPressed: () {
               ScaffoldMessenger.of(context).showSnackBar(
                 const SnackBar(content: Text('No new notifications')),
